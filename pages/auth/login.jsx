@@ -3,7 +3,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Link from 'next/link';
 import Router from 'next/router';
-import { login } from './../Services/auth/index';
+//import { login } from './../Services/auth/index';
 import Cookies from 'js-cookie';
 import { useDispatch } from 'react-redux';
 import { setUserData } from '@/Utils/UserSlice';
